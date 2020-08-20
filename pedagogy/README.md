@@ -56,18 +56,9 @@ Read the theory and comprehend the concepts related to the experiment. [LO1, LO2
 
 Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
 :--|:--|:--|:-:
-1.|User will be able to understand the concept of Key Generation <br> using RSA algorithm| solve problem based on RSA| Type the question that will assess what student has learnt
-2.|User will be able to apply the concept of RSA Algorithm and | Try to encrypt and decrypt message to secure it using RSA algorithm| 1 Question in detail <br> A. Option <br> B. Option <br> C. Option <br> <b> D. Option </b> <br> (mark correct option as bold text)
+1.|User will be able to understand the concept of Key Generation <br> using RSA algorithm| solve problem based on RSA| Write step how to compute Private key in RSA Algorithm
+2.|User will be able to apply the concept of RSA Algorithm and | Try to encrypt and decrypt message to secure it using RSA algorithm| 1 For p = 11 and q = 19 and choose e=17. Apply RSA algorithm where message=5 and find the cipher text. <br> A. C=80 <br> B. C=92 <br> C. C=56 <br> <b> D. C=23 </b> <br> (A)
 
-
-You can add more question. All questions may not be as MCQ
-Please add the correct answer as well.
-or type the correct answer below the question.
-
- <br>
-
- <u> You can add additional TASKS & Assessment Questions <u>
-<br/>
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
 </div>
