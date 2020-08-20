@@ -15,6 +15,7 @@ RSA (Rivest–Shamir–Adleman) is an algorithm used by modern computers to encr
 <h5> Target Audience : </h5>
 
 B.TECH(CS/IT)
+Student/Faculty
 
 <h5> Course Alignment : </h5>
 
