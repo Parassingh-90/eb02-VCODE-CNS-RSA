@@ -13,7 +13,7 @@
 <hr>
 
 <a name="LO"></a>
-#### 1. Focus Area : Experimentation
+#### 1. Focus Area : Reinforce theoretical concepts
 
 #### 2. Learning Objectives and Cognitive Level
 
@@ -35,11 +35,11 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 <a name="IS"></a>
 #### 3. Instructional Strategy
 ###### Name of Instructional Strategy  :    <u> Expository
-###### Assessment Method: Summative
+###### Assessment Method: Formative 
 
 <u> <b>Description: </b> of how you are going to implement the above Instructional Strategy in your Simulator: </u>
 <br>
- Input two large Prime numbers and a message to encrypt and then decrypt the message to reproduce the same message.
+ Input two large Prime numbers and a message in term of number to encrypt and then decrypt the message to reproduce the same message.
 
 <br/>
 <div align="right">
