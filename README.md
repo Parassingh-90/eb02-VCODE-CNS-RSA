@@ -1,5 +1,5 @@
 ## Introduction (Round 0)
-<b>Discipline | <b>Information Tecchnology
+<b>Discipline | <b>Information Technology
 :--|:--|
 <b> Lab | <b> Cryptography & Network Security
 <b> Experiment|     <b> 1.Write a Java program to implement RSA Algoithm
@@ -36,7 +36,7 @@ Dr. A.P.J. Abdul Kalam Technical University(AKTU)
 :--|:--|
 <b> Institute | <b> KIET Group of Institutions
 <b> Email id|     <b> sangeeta.arora@kiet.edu
-<b> Department | Computer Application
+<b> Department | Computer Applications
 
 
 #### Contributors List
