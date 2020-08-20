@@ -34,8 +34,8 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 
 <a name="IS"></a>
 #### 3. Instructional Strategy
-###### Name of Instructional Strategy  :    <u> As per Handout
-###### Assessment Method: As per handout
+###### Name of Instructional Strategy  :    <u> Expository
+###### Assessment Method: Summative
 
 <u> <b>Description: </b> of how you are going to implement the above Instructional Strategy in your Simulator: </u>
 <br>
@@ -56,8 +56,8 @@ Read the theory and comprehend the concepts related to the experiment. [LO1, LO2
 
 Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
 :--|:--|:--|:-:
-1.| LO's as described in section 1 <br> Next line here. | Type the task that <br> student will perform | Type the question that will assess what student has learnt
-2.| LO's as described in section 1 <br> Next line here. | Type the task that <br> student will perform | 1 Question in detail <br> A. Option <br> B. Option <br> C. Option <br> <b> D. Option </b> <br> (mark correct option as bold text)
+1.|User will be able to understand the concept of Key Generation <br> using RSA algorithm| solve problem based on RSA| Type the question that will assess what student has learnt
+2.|User will be able to apply the concept of RSA Algorithm and | Try to encrypt and decrypt message to secure it using RSA algorithm| 1 Question in detail <br> A. Option <br> B. Option <br> C. Option <br> <b> D. Option </b> <br> (mark correct option as bold text)
 
 
 You can add more question. All questions may not be as MCQ
