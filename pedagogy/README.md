@@ -55,7 +55,7 @@ Read the theory and comprehend the concepts related to the experiment. [LO1, LO2
 Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
 :--|:--|:--|:-:
 1.|User will be able to understand the concept of Key Generation <br> using RSA algorithm|Provide 2 large prime number P and Q |<div align="justify">Write step how to compute Private key in RSA Algorithm</div>
-2.|User will be able to apply the concept of RSA Algorithm and | Try to encrypt and decrypt message to secure it using RSA algorithm|For p = 11 and q = 19 and choose e=17. Apply RSA algorithm where message=5 and find the cipher text. <br> A. C=80 <br> B. C=92 <br> C. C=56 <br> <b> D. C=23 </b> <br> <b>(A)</b>
+2.|User will be able to apply the concept of RSA Algorithm and | Try to encrypt and decrypt message to secure it using RSA algorithm|<div align="justify">For p = 11 and q = 19 and choose e=17. Apply RSA algorithm where message=5 and find the cipher text. <br></div> <div align="justify">A. C=80 <br> B. C=92 <br> C. C=56 <br> <b> D. C=23 </b> <br> <b>(A)</b></div>
 
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
