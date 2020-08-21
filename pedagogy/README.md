@@ -70,8 +70,9 @@ Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the s
 
 Sr.No | What Students will do? |	What Simulator will do?	| Purpose of the task
 :--|:--|:--|:--:
+<div align="justify">
 1.| Student will enter two large Prime numbers. | Values of n and phi will be calculated. | User will be able to visulaize the calculation of n and phi.
 2.| Student will chose value of e. | Public key and Private key will be calculated.  | User will be able to understand the Public-Private key generation.
 3.| Student will enter the message and click encrypt button. | The entered message will be encrypted. | User will learn about encryption of message using Public key.
 4.| Student will send the message. | The encrypted message will be sent to the reciever.  | The encrypted message transmission from sender to reciever will be demonstrated.
-5.| Student will click decrypt button. | The recieved message will be decrypted.  | User will learn about decryption of message using Private key.
+5.| Student will click decrypt button. | The recieved message will be decrypted.  | User will learn about decryption of message using Private key.</div>
