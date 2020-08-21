@@ -2,7 +2,7 @@
 <b>Discipline | <b>Information Technology
 :--|:--|
 <b> Lab | <b> Cryptography & Network Security
-<b> Experiment|     <b> 1.Write a Java program to implement RSA Algoithm
+<b> Experiment|     <b> 3.Write a Java program to implement RSA Algoithm
 
 <h5> About the Lab (Objective) : </h5>
 
@@ -14,7 +14,7 @@ RSA (Rivest–Shamir–Adleman) is an algorithm used by modern computers to encr
 
 <h5> Target Audience : </h5>
 
-B.TECH(CS/IT)
+B.TECH(CS/IT)</br>
 Student/Faculty
 
 <h5> Course Alignment : </h5>
