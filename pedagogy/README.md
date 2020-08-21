@@ -3,7 +3,7 @@
 <b>Discipline | <b>Information Technology
 :--|:--|
 <b> Lab | <b> Cryptography and Network Security Lab
-<b> Experiment|     <b> 1. Write a Java Program to implement RSA Algorithm
+<b> Experiment|     <b> 3.Write a Java Program to implement RSA Algorithm
 
 <h4> [1. Focus Area](#LO)
 <h4> [2. Learning Objectives ](#LO)
@@ -22,8 +22,6 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:-:
 1.| User will be able to: <br>understand the concept of Key Generation <br> using RSA algorithm. |Understand|Explain
 2.| User will be able to: <br>apply the concept of RSA Algorithm <br> to encrypt and decrypt message. | Apply| Solve
-
-
 
 <br/>
 <div align="right">
