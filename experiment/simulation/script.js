@@ -65,7 +65,7 @@ function get_encrypt(){
 }
 function recieve(){
     var N=BigInt(n);
-    decmsg=Math.pow(ParseInt(encmsg),d)%N; 
+    decmsg=pow(encmsg,d)%N; 
     document.getElementById('decmsg').innerHTML=decmsg;
     document.getElementById('sending').style.display='none';    
     document.getElementById('gif').innerHTML='<img src="decryption.gif" width="750px" height="300px" style="background: transparent;">';
