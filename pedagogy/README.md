@@ -55,7 +55,7 @@ Read the theory and comprehend the concepts related to the experiment. [LO1, LO2
 Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
 :--|:--|:--|:-:
 1.|User will be able to understand the concept of Key Generation <br> using RSA algorithm|Provide 2 large prime number P and Q |<div align="justify">Write step how to compute Private key in RSA Algorithm</div>
-2.|User will be able to apply the concept of RSA Algorithm and | Try to encrypt and decrypt message to secure it using RSA algorithm|<div align="justify">For p = 11 and q = 19 and choose e=17. Apply RSA algorithm where message=5 and find the cipher text. <br></div> <div align="justify">A. C=80 <br> B. C=92 <br> C. C=56 <br> <b> D. C=23 </b> <br> <b>(A)</b></div>
+2.|User will be able to apply the concept of RSA Algorithm and | Try to encrypt and decrypt message to secure it using RSA algorithm|<div align="justify">For p = 11 and q = 19 and choose e=17. Apply RSA algorithm where message=5 and find the cipher text. <br></div> <div align="centre">A. C=80 <br> B. C=92 <br> C. C=56 <br> <b> D. C=23 </b> <br> <b>(A)</b></div>
 
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
@@ -70,8 +70,8 @@ Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the s
 
 Sr.No | What Students will do? |	What Simulator will do?	| Purpose of the task
 :--|:--|:--|:--:
-1.| Student will enter two large Prime numbers. | Values of n and phi will be calculated. | User will be able to visulaize the calculation of n and phi.
-2.| Student will chose value of e. | Public key and Private key will be calculated.  | User will be able to understand the Public-Private key generation.
-3.| Student will enter the message and click encrypt button. | The entered message will be encrypted. | User will learn about encryption of message using Public key.
-4.| Student will send the message. | The encrypted message will be sent to the reciever.  | The encrypted message transmission from sender to reciever will be demonstrated.
-5.| Student will click decrypt button. | The recieved message will be decrypted.  | User will learn about decryption of message using Private key.
+1.| Student will enter two large Prime numbers. | Values of n and phi will be calculated. |<div align="justify">User will be able to visulaize the calculation of n and phi.</div>
+2.| Student will chose value of e. | Public key and Private key will be calculated.  |<div align="justify">User will be able to understand the Public-Private key generation.</div>
+3.| Student will enter the message and click encrypt button. | The entered message will be encrypted. |<div align="justify">User will learn about encryption of message using Public key.</div>
+4.| Student will send the message. | The encrypted message will be sent to the reciever.  |<div align="justify">The encrypted message transmission from sender to reciever will be demonstrated.</div>
+5.| Student will click decrypt button. | The recieved message will be decrypted.  |<div align="justify">User will learn about decryption of message using Private key.</div>
