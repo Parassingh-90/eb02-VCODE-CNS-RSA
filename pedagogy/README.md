@@ -1,9 +1,9 @@
 ## Pedagogy (Round 1)
 <b> Write a Java Program to implement RSA Algorithm <a name="top"></a> <br>
-<b>Discipline | <b>Information Technology
+<b>Discipline |<b>Information Technology
 :--|:--|
-<b> Lab | <b> Cryptography and Network Security Lab
-<b> Experiment|     <b> 3.Write a Java Program to implement RSA Algorithm
+<b> Lab |<b>Cryptography and Network Security Lab
+<b> Experiment| <b>3.Write a Java Program to implement RSA Algorithm
 
 <h4> [1. Focus Area](#LO)
 <h4> [2. Learning Objectives ](#LO)
@@ -21,8 +21,8 @@
 Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:-:
 1.| User will be able to: <br>remember the concept of prime number|Remember|Identify
-2.| User will be able to: <br>understand the concept of Key Generation <br> using RSA algorithm. |Understand|Explain
-3.| User will be able to: <br>apply the concept of RSA Algorithm <br> to encrypt and decrypt message. | Apply| Solve
+2.| User will be able to: <br>understand the concept of Key Generation <br> using RSA algorithm.|Understand|Explain
+3.| User will be able to: <br>apply the concept of RSA Algorithm <br> to encrypt and decrypt message.|Apply|Solve
 
 <br/>
 <div align="right">
@@ -38,7 +38,7 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 
 <u> <b>Description: </b> of how you are going to implement the above Instructional Strategy in your Simulator: </u>
 <br>
- Input two large Prime numbers and a message in term of number to encrypt and then decrypt the message to reproduce the same message.
+ <div align="justify>Firstly input two large Prime numbers and than compute the n and phi value.User has to select the value of e.Based on e value private and public keys get generated.Now user has to provide message in term of number to encrypt and then select decrypt option to generate same message in term of number as plain text.</div>
 
 <br/>
 <div align="right">
