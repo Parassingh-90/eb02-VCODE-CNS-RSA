@@ -6,6 +6,12 @@
     </title>
 </head>
 <style>
+    @media screen and (max-width: 1100px) {
+           img{
+                width: 500px;
+                height: 200px;
+           }
+    }
     #list{
         display: block;
     }
@@ -20,7 +26,7 @@
 
     .option:hover {
         cursor: pointer;
-        border: 2px solid rgb(39, 38, 38);
+        border: 2px solid rgb(93, 93, 202);
         color: rgb(39, 38, 38);
     }
 
@@ -29,7 +35,7 @@
     }
 
     .btn-next {
-        background-color: rgb(39, 38, 38);
+        background-color: rgb(93, 93, 202);
         color: white;
         padding: 15px 35px;
         border: none;
@@ -39,16 +45,46 @@
 
     .btn-next:hover {
         cursor: pointer;
-        background-color: gold;
+        background-color: rgb(255, 255, 255);
         color: rgb(39, 38, 38);
         box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
         transform: translateY(-1px);
     }
 
+    .btn-next:focus {
+        outline: none;
+    }
+
+    .btn-nextX {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        padding: 15px 35px;
+        border: none;
+        border-radius: 27px;
+        transition: 0.4s all;
+    }
+
+    .btn-nextX:hover {
+        cursor: pointer;
+        background-color: rgb(255, 255, 255);
+        color: rgb(39, 38, 38);
+        box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+        transform: translateY(-1px);
+    }
+
+    .btn-nextX:focus {
+        outline: none;
+    }
+
     .simulator,
-    .instruction,#code {
+    .instruction {
         /*background-color: rgba(225, 225, 225,0.5);*/
-        text-shadow: 0px 1px 1px rgb(34, 34, 34);
+        border-radius: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 0% 1% 1% 1%;
+    }
+
+    #code{
         border-radius: 20px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
@@ -61,7 +97,8 @@
     }
 
     .float {
-        background-color: rgba(225, 225, 225, 0.8);
+
+        background-color: rgb(129, 224, 231);
         border-radius: 20px;
     }
 
@@ -69,7 +106,7 @@
     .popup {
         position: relative;
         float: right;
-        bottom: 30;
+        bottom: 35;
         display: inline-block;
         cursor: pointer;
         -webkit-user-select: none;
@@ -144,21 +181,21 @@
             <li>P and Q should be between 11 and 100.</li>
             <li>Value of e differs according to the given inputs.</li>
             <li>Message to be sent should be a numeric message containing only numbers (0-9).</li>
-            <li>Message sent should be in range [0-300].</li>
+            <li>Message sent should be in range [0-200].</li>
         </ul>
-        <div class="popup" id="myBtn"><b style="color: brown"><span id="click">Click to see
-                    formulae</span></b>
-            <span class="popuptext" id="myPopup">Formulae box</span>
+        <div class="popup" id="myBtn"><b style="color: red; text-shadow: none; "><span id="click">Click to see
+                    formulae</span></b> 
+                    <input class="btn-next" value="Reset" onclick="reset()" style="background-color: red; width: 110px;padding: 3%;text-align: center;"/>
         </div>
 
     </div>    
     <div id="myModal" class="modal">
 
         <!-- Modal content -->
-        <div class="modal-content">
+        <div class="modal-content"  style="border-radius: 20px; box-shadow: 5px 5px 10px rgb(93, 93, 202) inset;">
             <div class="modal-header">
                 <span class="close">&times;</span>
-                <h2>RSA encryption decryption formulae</h2>
+                <h2 style="color: rgb(93, 93, 202);">RSA encryption decryption formulae</h2>
             </div>
             <div class="modal-body">
                 <p>The formulae used are as follows : </p>
@@ -172,7 +209,7 @@
                 </ul>
             </div>
             <div class="modal-footer">
-                <h3>Please refer to these formulae for understanding the underlying concepts.</h3>
+                <h3 style="color: rgb(93, 93, 202);">Please refer to these formulae for understanding the underlying concepts.</h3>
             </div>
         </div>
 
@@ -214,15 +251,17 @@ decmsg=pow(encmsg,d)%N;
             <label for="p">Enter P:</label>
             <input class="option" type="text" id="p" name="p"><br><br>
             <label for="q">Enter Q:</label>
-            <input class="option" type="text" id="q" name="q">
-            <input class="btn-next" type="submit" value="Submit" id="pqsubmit" onclick="sub()">
+            <input class="option" type="text" id="q" name="q"><br>
+            <input class="btn-next" type="submit" value="Submit" id="pqsubmit" onclick="sub()"><br>
+            <span id="error" style="color: red;"></span>            
         </div>
         <div id="eform">
             <label for="e">Choose a value for e:</label>
             <select style="border-radius: 20px; background-color: rgba(225, 225, 225, 0.8);" name="e" id="e">
                 <option value="">Select e</option>
             </select>
-            <input class="btn-next" type="submit" value="Submit" id="esubmit" onclick="esub()">
+            <input class="btn-next" type="submit" value="Submit" id="esubmit" onclick="esub()"><br>
+            <span id="perror" style="color: red;"></span> 
         </div>
         <div class="float" id="pqdetail">
             P: <span id="p1"></span><br>
@@ -239,12 +278,13 @@ decmsg=pow(encmsg,d)%N;
         <div id="send">
             <label for="p">Enter Message:</label>
             <input class="option" type="text" id="message" name="send">
-            <input class="btn-next" type="submit" value="Encrypt" id="encrypt" onclick="encrypt()">
+            <input class="btn-next" type="submit" value="Encrypt" id="encrypt" onclick="encrypt()"><br>
+            <span id="merror" style="color: red;"></span> 
         </div>
         <div class="float" id="encrypted" style="background-color: rgba(243, 210, 101, 0.8);">
             Encrypted Data: 
             <strong><span id="encmsg"></span></strong> <br><br>
-            <center><input class="btn-next" type="submit" value="Send" id="send_message" onclick="send()"></center>
+            <center><input class="btn-nextX" type="submit" value="Send" id="send_message" onclick="send()"></center>
         </div>
         <div class="float" id="sending" style="background-color:  rgba(243, 210, 101, 0.8);">
             Data: <strong><span id="encmsg1"></span></strong>
@@ -254,6 +294,46 @@ decmsg=pow(encmsg,d)%N;
             Decrypted Data:
             <strong><span id="decmsg"></span></strong> <br>
         </div>
+        <center><span id="quizalert" style="color:red;position: relative;left: 20%;"></span><br><br></center>        
+    </div>
+    <div name="quizdiv" id="quizdiv">
+        <hr>
+        <h1 style="text-align:center; color:rgb(93, 93, 202);">Attempt Task</h1>
+    
+        <ol style="font-size:15px;font-weight:bold;">
+            <li>Dexter wants to set up his own public and private keys. He chooses p = 23 and q = 19 with e = 283. Find d?<br>
+                <div style="font-weight:normal;font-size:14px">
+                    <input type="radio" id="op11" name="q1" value="op11">
+                    <label id="lop11">11</label><br>
+                    <input type="radio" id="op12" name="q1" value="op12">
+                    <label id="lop12">7</label><br>
+                    <input type="radio" id="op13" name="q1" value="op13">
+                    <label id="lop13">37</label><br>
+                    <input type="radio" id="op14" name="q1" value="op14">
+                    <label id="lop14">19</label><br>
+                </div>
+            </li>
+            <br>                
+    
+            <li> For p = 11 and q = 19 and choose e=17. Apply RSA algorithm where message=5 and find the cipher text?<br>
+                <div style="font-weight:normal;font-size:14px">
+                    <input type="radio" id="op31" name="q3" value="op31">
+                    <label id="lop31">92</label><br>
+                    <input type="radio" id="op32" name="q3" value="op32">
+                    <label id="lop32">80</label><br>
+                    <input type="radio" id="op33" name="q3" value="op33">
+                    <label id="lop33">67</label><br>
+                    <input type="radio" id="op34" name="q3" value="op34">
+                    <label id="lop34">39</label><br>
+                </div>
+            </li>
+            <br>                
+            <input class="btn-next" type="button" name="quizsubmit" id="quizsubmit" value="Submit"
+                onclick="viewresult()" />
+            <br>
+            <span id="score"></span>
+    
+        </ol>
     </div>
 </body>
 
@@ -271,29 +351,36 @@ decmsg=pow(encmsg,d)%N;
     }
 
     .instruction {
-        border: 1px solid black;
+        border: 1px solid rgb(93, 93, 202);
         padding: 0% 1% 1% 1%;
         line-height: 1.4;
         margin-bottom: 1px;
         height: 200px;
+        box-shadow: 5px 5px 18px rgb(93, 93, 202) inset;
+        color:  rgb(93, 93, 202);
+        text-shadow: 0px 1px 1px rgb(3, 1, 121);
     }
 
     .simulator {
-        border: 1px solid black;
+        border: 1px solid rgb(93, 93, 202);
+        padding: 1% 1% 1% 1%;;
         padding: 1% 1% 1% 1%;
         height: 70%;
         width: 70%;        
         position: relative;
         overflow: auto;
+        box-shadow: 5px 5px 18px rgb(93, 93, 202) inset;
     }
     #code{
-        height: 68%;
+        height: 70%;
         width: 25.75%;
         padding: 1% 1% 1% 1%;
         position: absolute;
         right: 0%;
-        border: 1px solid black;
+        border: 1px solid  rgb(93, 93, 202);
+        padding: 0% 1% 1% 1%;;
         overflow: auto;
+        box-shadow: 5px 5px 18px rgb(93, 93, 202) inset;
     }
 
     /* The animation code */
@@ -499,7 +586,7 @@ decmsg=pow(encmsg,d)%N;
     .modal-content {
         border: 1px solid black;
         position: fixed;
-        bottom: 50%;
+        top: 25%;
         background-color: #fefefe;
         width: 98%;
         left: 1%;
@@ -615,26 +702,49 @@ decmsg=pow(encmsg,d)%N;
     }
 
     function sub() {
+        p = document.getElementById('p').value;
+        q = document.getElementById('q').value;
+        if (p<11 || p>100 || q<11 || q>100 || p=='' || q=='' || p==q) {
+            document.getElementById('error').innerHTML='Please enter different valid Prime numbers in range [11-100]';
+        }
+        else{
+            document.getElementById('error').innerHTML='';        
         document.getElementById('pqform').style.animation = 'example 2s';
         document.getElementById('pqform').style.animationDelay = '-1s';
         //console.log('entered');
         pqupdate();
         ecalc();
         document.getElementById('pqform').addEventListener("animationend", function () { document.getElementById('pqform').style.display = 'none'; change(); });
+        }
     }
-    function encrypt() {
+    function encrypt() {        
+        var m=document.getElementById('message').value;
+        if (isNaN(m) || m>200 || m<0 || m=='') {
+            document.getElementById('merror').innerHTML='Please enter a valid message!';        
+        }
+        else{        
         document.getElementById('send').style.animation = 'example 2s';
         document.getElementById('send').style.animationDelay = '-1s';
         get_encrypt();
         document.getElementById('send').addEventListener("animationend", function () { document.getElementById('send').style.display = 'none'; show1(); });
+        }
     }
 
-    function esub() {
-        document.getElementById('eform').style.animation = 'example 1s';
-        pb();
-        prkey();
-        document.getElementById('gif').innerHTML = '<img src="public_key.gif" width="650px" height="250px" style="background: transparent;">';
-        document.getElementById('eform').addEventListener("animationend", function () { document.getElementById('eform').style.display = 'none'; echange(); });
+    function esub() {        
+        var e = document.getElementById("e");                   
+        if (e.options[e.selectedIndex].value=="Select e" || e.options[e.selectedIndex].value=='') {
+            //console.log('nan');            
+            document.getElementById('perror').innerHTML='Please choose e!';        
+        }
+        else{
+            //console.log('no nan');            
+            document.getElementById('perror').innerHTML='';                
+            document.getElementById('eform').style.animation = 'example 1s';
+            pb();
+            prkey();
+            document.getElementById('gif').innerHTML = '<img src="public_key.gif" width="650px" height="250px" style="background: transparent;">';
+            document.getElementById('eform').addEventListener("animationend", function () { document.getElementById('eform').style.display = 'none'; echange(); });
+        }
     }
     function dchange() {
         document.getElementById('gif').innerHTML = '<img src="private_key.gif" width="650px" height="250px" style="background: transparent;">';
@@ -673,7 +783,7 @@ decmsg=pow(encmsg,d)%N;
         document.getElementById('sending').style.animationTimingFunction = 'ease-in-out';
         document.getElementById('sending').addEventListener("animationend", function () {
             document.getElementById('sending').style.display = 'none';
-            document.getElementById('sending').innerHTML += '<br><br><input class="btn-next" type="submit" value="Decrypt" id="decrypt_message" onclick="recieve()">                ';
+            document.getElementById('sending').innerHTML += '<br><br><input class="btn-nextX" type="submit" value="Decrypt" id="decrypt_message" onclick="recieve()">                ';
             document.getElementById('sending').style.display = 'block';
         });
 
