@@ -189,7 +189,7 @@ function viewresult() {
         document.getElementById("lop32").style.color = '#2fd677';                
 
         //Rating according to number of correct answers
-        document.getElementById('score').innerHTML = "Your score is " + qans + "/5.";
+        document.getElementById('score').innerHTML = "Your score is " + qans + "/2.";
         document.getElementById('quizsubmit').disabled = true;
         document.getElementById('quizsubmit').style.backgroundColor = 'grey';
     }
