@@ -38,7 +38,7 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 
 <u> <b>Description: </b> of how you are going to implement the above Instructional Strategy in your Simulator: </u>
 <br>
- <div align="justify>Firstly input two large Prime numbers and than compute the n and phi value.User has to select the value of e.Based on e value private and public keys get generated.Now user has to provide message in term of number to encrypt and then select decrypt option to generate same message in term of number as plain text.</div>
+ <div align="justify">Firstly input two large Prime numbers and than compute the n and phi value.User has to select the value of e.Based on e value private and public keys get generated.Now user has to provide message in term of number to encrypt and then select decrypt option to generate same message in term of number as plain text.</div>
 
 <br/>
 <div align="right">
