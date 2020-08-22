@@ -3,25 +3,25 @@
 Experiment 3: Write a Java Program to implement RSA algorithm.
 
 ### 1. Story Outline:
-
+<div align="justify">
 The experiment is based on implementation of RSA algorithm for encryption and decryption of message using asymmetric encryption.
 RSA is the initial letters of the surnames of Ron Rivest, Adi Shamir, and Leonard Adleman, who publicly described the algorithm in 1977.The experiment involves generating the public key and private key using two large prime numbers entererd by user and then using the calculated key pairs to encrypt the message and decrypt the message.
-The user choses two large prime numbers for P and Q.This evaluates some value of e which then plays a vital role in calculation of Public key and Private key.This is then followed by user entering the message to be encrypted,sending the message to the reciever and then again decrypting it to plain message.Simulator will provide the user a better understanding of the overall procedure involved in RSA algorithm implementation.
+The user choses two large prime numbers for P and Q.This evaluates some value of e which then plays a vital role in calculation of Public key and Private key.This is then followed by user entering the message to be encrypted,sending the message to the reciever and then again decrypting it to plain message.Simulator will provide the user a better understanding of the overall procedure involved in RSA algorithm implementation.</div>
 
 ### 2. Story:
-
+<div align="justify">
 RSA (Rivest–Shamir–Adleman) is one of the first public-key cryptosystems and is widely used for secure data transmission. The acronym RSA is the initial letters of the surnames of Ron Rivest, Adi Shamir, and Leonard Adleman, who publicly described the algorithm in 1977. In such a cryptosystem, the encryption key is public and distinct from the decryption key which is kept secret (private). In RSA, this asymmetry is based on the practical difficulty of factoring the product of two large prime numbers.
 A user of RSA creates and then publishes a public key based on two large prime numbers, along with an auxiliary value. The prime numbers must be kept secret. Anyone can use the public key to encrypt a message, but only someone with knowledge of the prime numbers can decode the message.
 The RSA algorithm involves four steps: key generation, key distribution, encryption and decryption.
 A basic principle behind RSA is the observation that it is practical to find three very large positive integers e, d and n such that with modular exponentiation for all integers m (with 0 ≤ m < n), and that knowing e and n, or even m, it can be extremely difficult to find d. 
 RSA involves a public key and a private key. The public key can be known by everyone, and it is used for encrypting messages. The intention is that messages encrypted with the public key can only be decrypted in a reasonable amount of time by using the private key. The public key is represented by the integers n and e; and, the private key, by the integers d and n.
-In Java we use Big Integers for calculating the above mentioned values and some algorithmic functions are to be created for fully implementing the algorithm.
+In Java we use Big Integers for calculating the above mentioned values and some algorithmic functions are to be created for fully implementing the algorithm.</div>
 
 #### 2.1 Set the Visual Stage Description:
-
+<div align="justify">
 We divide or whole simulator into two parts.The top part comprises the instructions for the simulator and the bottom part is for simulator actions which is further subdivided into simulator representation part and code display part.The home screen shows 2 text boxes for entering values into P and Q.On submitting the form vanishes and is replaced by the form for inputting value of e. Then the details about P, Q, Phi, n and Public-Private key pairs are diplayed.
 The message to be sent for encryption is to eneterd now in the text box displayed.On submitting a messagew box with encrypted message and send button is displayed.On clicking send the message is sent to the reciever and displayed on recieving side with a Decrypt button.The decrypt button will decrypt the message and retrieve the plain text.
-The side panel continously shows the appropriate code running for the ongoing process.
+The side panel continously shows the appropriate code running for the ongoing process.</div>
 
 #### 2.2 Set User Objectives & Goals:
 
