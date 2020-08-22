@@ -171,6 +171,12 @@
             opacity: 1;
         }
     }
+#phicode,#ecode,#prcode,#encode,#decode,#pqcode{
+    padding: 2%;
+    border-radius: 2%;
+}
+#code::-webkit-scrollbar { width: 0 !important }
+#code { overflow: -moz-scrollbars-none; }
 </style>
 
 <body>
@@ -218,33 +224,45 @@
         </div>
 
     </div>
-    <div id="code">             
-        <pre>
+    <div id="code">      
+        <pre id="pqcode" style="background-color: lightseagreen;color:white">
+Scanner sc=new Scanner(System.in);            
+p=sc.nextInt();
+q=sc.nextInt();
+</pre>       
+<pre id="phicode">            
 n=P*Q
-phi=(P-1)*(Q-1)
+phi=(P-1)*(Q-1)</pre>
+<pre id="ecode">
 for(e=2;e&lt;phi;e++)
 {
     if(gcd(e,phi)==1 && e!=p && e!=q)
     { 
-        add(e);  
+        System.out.println(e);
         break;
     }
 }
+</pre>
+<pre id="prcode">
 function prkey(){
     var i;
     for(i=1;i&lt;=9;i++)
     {
-        var x=1+(i*phi);
-        if(x%evalue==0)
+        int x=1+(i*phi);
+        if(x%e==0)
         {
-            d=x/evalue;
-            console.log(d);            
+            d=x/e;                       
             break;
         }
     }        
 }
-encmsg=Math.pow(parseInt(msg),evalue)%n;
-decmsg=pow(encmsg,d)%N; 
+</pre>
+<pre id="encode">
+encmsg=Math.pow(Integer.parseInt(msg),evalue)%n;
+</pre>
+<pre id="decode">
+decmsg=Math.pow(encmsg,d)%n; 
+</pre>
         </pre>
     </div>
     <div class="simulator">
@@ -697,11 +715,18 @@ decmsg=pow(encmsg,d)%N;
 <script>
     var flag = 1;
     function change() {
+        document.getElementById('phicode').style.backgroundColor='lightseagreen';
+        document.getElementById('phicode').style.color='white';
+        document.getElementById('pqcode').style.backgroundColor='transparent';
+        document.getElementById('pqcode').style.color='black';
         document.getElementById('pqdetail').style.display = 'block';
         document.getElementById('pqdetail').style.animation = 'pqdetails 4s';
         document.getElementById('pqdetail').style.animationFillMode = 'both';
         document.getElementById('pqdetail').style.animationTimingFunction = 'ease-in-out';
-        document.getElementById('pqdetail').addEventListener("animationend", function () { document.getElementById('eform').style.display = 'block'; document.getElementById('eform').style.animation = 'example2 1s'; });
+        document.getElementById('pqdetail').addEventListener("animationend", function () { document.getElementById('eform').style.display = 'block'; document.getElementById('eform').style.animation = 'example2 1s'; document.getElementById('phicode').style.backgroundColor='transparent';
+        document.getElementById('phicode').style.color='black';
+        document.getElementById('ecode').style.backgroundColor='lightseagreen';
+        document.getElementById('ecode').style.color='white';});
 
     }
 
@@ -726,11 +751,17 @@ decmsg=pow(encmsg,d)%N;
         if (isNaN(m) || m>200 || m<0 || m=='') {
             document.getElementById('merror').innerHTML='Please enter a valid message!';        
         }
-        else{        
-        document.getElementById('send').style.animation = 'example 2s';
-        document.getElementById('send').style.animationDelay = '-1s';
-        get_encrypt();
-        document.getElementById('send').addEventListener("animationend", function () { document.getElementById('send').style.display = 'none'; show1(); });
+        else{     
+            var scroll=document.getElementById('code')
+            scroll.scrollTop = scroll.scrollHeight;
+            document.getElementById('encode').style.backgroundColor='lightseagreen';
+            document.getElementById('encode').style.color='white';
+            document.getElementById('prcode').style.backgroundColor='transparent';
+            document.getElementById('prcode').style.color='black';   
+            document.getElementById('send').style.animation = 'example 2s';
+            document.getElementById('send').style.animationDelay = '-1s';
+            get_encrypt();
+            document.getElementById('send').addEventListener("animationend", function () { document.getElementById('send').style.display = 'none'; show1(); });
         }
     }
 
@@ -751,6 +782,10 @@ decmsg=pow(encmsg,d)%N;
         }
     }
     function dchange() {
+        document.getElementById('prcode').style.backgroundColor='lightseagreen';
+        document.getElementById('prcode').style.color='white';
+        document.getElementById('ecode').style.backgroundColor='transparent';
+        document.getElementById('ecode').style.color='black';
         document.getElementById('gif').innerHTML = '<img src="private_key.gif" width="650px" height="250px" style="background: transparent;">';
         document.getElementById('ddetail').style.animationDelay = '1s';
         document.getElementById('ddetail').style.animation = 'ddetails 4s';
@@ -759,7 +794,7 @@ decmsg=pow(encmsg,d)%N;
         document.getElementById('ddetail').addEventListener("animationend", function () { document.getElementById('send').style.display = 'block'; });
     }
 
-    function echange() {
+    function echange() {        
         document.getElementById('edetail').style.display = 'block';
         document.getElementById('edetail').style.animationDelay = '1s';
         document.getElementById('edetail').style.animation = 'edetails 4s';

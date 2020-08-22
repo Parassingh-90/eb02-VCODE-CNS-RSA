@@ -64,6 +64,10 @@ function get_encrypt() {
 function recieve() {
     var N = BigInt(n);
     decmsg = pow(encmsg, d) % N;
+    document.getElementById('decode').style.backgroundColor='lightseagreen';
+    document.getElementById('decode').style.color='white';
+    document.getElementById('encode').style.backgroundColor='transparent';
+    document.getElementById('encode').style.color='black';
     document.getElementById('decmsg').innerHTML = decmsg;
     document.getElementById('sending').style.display = 'none';
     document.getElementById('gif').innerHTML = '<img src="decryption.gif" width="650px" height="250px" style="background: transparent;">';
