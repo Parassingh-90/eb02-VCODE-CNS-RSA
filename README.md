@@ -1,8 +1,8 @@
 ## Introduction (Round 0)
 <b>Discipline | <b>Information Technology
 :--|:--|
-<b> Lab | <b> Cryptography & Network Security
-<b> Experiment|     <b> 3.Write a Java program to implement RSA Algoithm
+<b> Lab | <b>Cryptography & Network Security
+<b> Experiment|     <b>3.Write a Java program to implement RSA Algoithm
 
 <h5> About the Lab (Objective) : </h5>
 
@@ -35,9 +35,9 @@ Dr. A.P.J. Abdul Kalam Technical University(AKTU)
 
 <b>Mentored by | <b> Dr Sangeeta Arora
 :--|:--|
-<b> Institute | <b> KIET Group of Institutions
-<b> Email id|     <b> sangeeta.arora@kiet.edu
-<b> Department | Computer Applications
+<b> Institute |<b>KIET Group of Institutions
+<b> Email id| <b>sangeeta.arora@kiet.edu
+<b> Department |Computer Applications
 
 
 #### Contributors List
