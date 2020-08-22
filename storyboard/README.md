@@ -45,7 +45,11 @@ The side panel continously shows the appropriate code running for the ongoing pr
 
 ##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
 
-Describe the challenges Here : (guide : Set Challenges and Questions/Complexity/variations in questions according to User’s level, so as to invoke the learners’ interest.  (while traversing, what challenges he will face? how he has to solve and overcome ? descriptive).)
+Q. Dexter wants to set up his own public and private keys. He chooses p = 23 and q = 19 with e = 283. Find d?<br>
+A.11<br>
+B.<b>7</b><br>
+C.37<br>
+D.19<br>
 
 ##### 2.5 Allow pitfalls:
 
@@ -58,7 +62,7 @@ Describe the challenges Here : (guide : Set Challenges and Questions/Complexity/
 1. Assessment/evaluation of the pre-test and post-test should be given immediately to the user. The moment the student clicks on the answer of his choice, the CORRECT ANSWER should be displayed below the question. This would enable the student to understand whether he is right or wrong.<br>
 2. This would prompt the users as to how many answers were correctly answered.<br>
 3. The given plain text is to be encrypted using RSA and then answered accordingly.<br>
-4. The given Cipher text si to be decrypted using RSA and then answered accordingly.<br>
+4. The given Cipher text is to be decrypted using RSA and then answered accordingly.<br>
 
 ##### 2.7 Equations/formulas: 
 
