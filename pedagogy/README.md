@@ -20,7 +20,7 @@
 
 Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:-:
-1.| User will be able to: <br>remember the concept of prime number|Recall|Identify
+1.| User will be able to: <br>remember the concept of prime number|Remember|Identify
 2.| User will be able to: <br>understand the concept of Key Generation <br> using RSA algorithm. |Understand|Explain
 3.| User will be able to: <br>apply the concept of RSA Algorithm <br> to encrypt and decrypt message. | Apply| Solve
 
