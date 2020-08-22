@@ -51,6 +51,13 @@ B.<b>7</b><br>
 C.37<br>
 D.19<br>
 
+Q. For p = 11 and q = 19 and choose e=17. Apply RSA algorithm where message=5 and find the cipher text?<br>
+A.92<br>
+B.<b>80</b><br>
+C.67<br>
+D.39<br>
+
+
 ##### 2.5 Allow pitfalls:
 
 1. The simulator is designed for particularly smaller messages and therefore student needs to be attetntive while choosing the message to be sent.<br>
