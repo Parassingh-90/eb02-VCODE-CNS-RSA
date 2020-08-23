@@ -54,7 +54,17 @@
     .btn-next:focus {
         outline: none;
     }
-
+    #hideshow:active{
+        border: 1px solid blue;
+    }
+    #hideshow:focus{
+        border: 1px solid blue;
+        outline: none;
+    }
+    #hideshow:hover{
+        border: 1px solid blue;
+        box-shadow: 0px 0px 10px 1px rgb(93, 93, 202);
+    }
     .btn-nextX {
         background-color: rgb(0, 0, 0);
         color: white;
@@ -106,7 +116,7 @@
     .popup {
         position: relative;
         float: right;
-        bottom: 80px;
+        bottom: 75px;
         right: 30px;
         display: inline-block;
         cursor: pointer;
@@ -177,22 +187,13 @@
 }
 #code::-webkit-scrollbar { width: 0 !important }
 #code { overflow: -moz-scrollbars-none; }
-    
-.top{
-        color: rgb(93, 93, 202); text-shadow: 2px 2px 3px  rgb(3, 1, 121); font-size: 50px;
-        display: inline;
-        padding: 0px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
 </style>
 
 <body>
-    <center>
-        <p class="top">RSA-Cryptography</h1>
-    </center>
+    <h1 style="text-align: center;color:  rgb(93, 93, 202);">RSA Implementation</h1>
     <div class="instruction" id="instruction">
         <h1>Instructions</h1>
-        <button style="position: absolute;top: 20;right: 20;font-weight: 900;" id="hideshow">-</button>
+        <button style="background-color: transparent;position: absolute;top: 75;right: 20;font-weight: 900;width: 25px;border-radius: 2%;border: 0px solid blue;cursor: pointer;" id="hideshow">-</button>
         <ul id="list">
             <li>Enter two different large prime numbers as P and Q.</li>
             <li>P and Q should be between 11 and 100.</li>
@@ -207,7 +208,6 @@
             <center><input class="btn-next" type="submit" value="Reset" onclick="reset()"
                 style="background-color: red; width: 110px;padding: 3%;text-align: center;" /></center>
         </div>
-
     </div>    
     <div id="myModal" class="modal">
 
@@ -710,12 +710,12 @@ decmsg=pow(encmsg,d)%N;
             height: 200px;            
         }
         to{
-            height: 75px;
+            height: 90px;
         }
     }
     @keyframes show{
         from{
-            height: 75px;
+            height: 90px;
         }
         to{
             height: 200px;
