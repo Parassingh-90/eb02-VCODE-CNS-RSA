@@ -57,13 +57,13 @@ function gcd(e, z) {
 }
 function get_encrypt() {
     var msg = document.getElementById('message').value;
-    encmsg = Math.pow(parseInt(msg), evalue) % n;
+    encmsg = Math.pow(parseInt(msg), evalue)%n;
     document.getElementById('encmsg').innerHTML = encmsg;
     document.getElementById('encmsg1').innerHTML = encmsg;
 }
 function recieve() {
     var N = BigInt(n);
-    decmsg = pow(encmsg, d) % N;
+    decmsg = Math.pow(encmsg,d)%N;
     document.getElementById('decode').style.backgroundColor='lightseagreen';
     document.getElementById('decode').style.color='white';
     document.getElementById('encode').style.backgroundColor='transparent';
@@ -75,7 +75,6 @@ function recieve() {
     document.getElementById('quizalert').innerHTML = "Attempt the task given below!";
     document.getElementById("quizdiv").style.display = "block";
 }
-
 
 function pow(a, b) {
     var p = BigInt(a)
