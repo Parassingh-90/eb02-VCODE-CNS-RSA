@@ -63,7 +63,7 @@ function get_encrypt() {
 }
 function recieve() {
     var N = BigInt(n);
-    decmsg = pow(encmsg,d)%N;
+    decmsg = pow(encmsg, d)%N;
     document.getElementById('decode').style.backgroundColor='lightseagreen';
     document.getElementById('decode').style.color='white';
     document.getElementById('encode').style.backgroundColor='transparent';
