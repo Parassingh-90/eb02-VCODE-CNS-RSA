@@ -4,7 +4,7 @@ Q 1. What is the formula for encryption of message?<br>
 a. message*n<br>
 b. message^n mod phi<br>
 <b>c. message^e mod n<br></b>
-d. e^n mod phi<br>
+d. e^n mod phi<br><br>
 
 Q 2. What is the formula for decryption of message?<br>
 a. message*d<br>
