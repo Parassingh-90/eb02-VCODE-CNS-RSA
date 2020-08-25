@@ -16,8 +16,67 @@ RSA (Rivest–Shamir–Adleman) is one of the first public-key cryptosystems and
 8.Click on Decrypt button to decrypt the recieved messsage.<br>
 9.The sent message is displayed on reciever's end.<br>
 
-### Pre Test
-### Post Test
+### Pre Test<br>
+Q 1. What is example of symmmetric encryption?<br>
+a. RSA<br>
+<b>b. Blowfish<br></b>
+c. DSA<br>
+d. ECC<br>
+
+Q 2. What is disadvantage of symmetric encryption?<br>
+a. complex<br>
+<b>b. secured secret key transmission<br></b>
+c. not much used<br>
+d. less secure encryption<br>
+
+Q 3. What part of encryption remains secret?<br>
+a. public key<br>
+<b>b. private key<br></b>
+
+Q 4. Why we need encryption?<br>
+a. make fast transmission<br>
+<b>b. make secured transmission<br></b>
+c. not needed<br>
+d. easy access<br>
+
+Q 5. Which is a prime number?<br>
+a. 35<br>
+<b>b. 53<br></b>
+c. 9<br>
+d. 39<br>
+e. 51<br>
+
+### Post Test<br>
+Q 1. What is the formula for encryption of message?<br>
+a. message*n<br>
+b. message^n mod phi<br>
+<b>c. message^e mod n<br></b>
+d. e^n mod phi<br><br>
+
+Q 2. What is the formula for decryption of message?<br>
+a. message*d<br>
+<b>b. message^d mod phi<br></b>
+c. message^e mod n<br>
+d. d^n mod phi<br>
+
+Q 3. What is public key?<br>
+a. combination of (d,n)<br>
+<b>b. combination of (e,n)<br></b>
+c. e<br>
+d. phi<br>
+
+Q 4. What is private key?<br>
+<b>a. combination of (d,n)<br></b>
+b. combination of (e,n)<br>
+c. e<br>
+d. phi<br>
+
+Q 5. Where is private key?<br>
+a. sender<br>
+<b>b. reciever<br></b>
+c. communication channel<br>
+d. both<br>
+
 ### References<br>
 https://www.geeksforgeeks.org/rsa-algorithm-cryptography/<br>
 https://www.tutorialspoint.com/cryptography_with_python/cryptography_with_python_understanding_rsa_algorithm.htm<br>
