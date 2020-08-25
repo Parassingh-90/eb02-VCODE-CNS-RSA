@@ -90,26 +90,67 @@
 
   const myQuestions = [
     {
-      question: "Dexter wants to set up his own public and private keys. He chooses p = 23 and q = 19 with e = 283. Find d?",  ///// Write the question inside double quotes
+      question: "What is the formula for encryption of message?",  ///// Write the question inside double quotes
       answers: {
-        a: "11",                  ///// Write the option 1 inside double quotes
-        b: "7",                  ///// Write the option 2 inside double quotes
-        c: "37",                  ///// Write the option 3 inside double quotes
-        d: "19"                   ///// Write the option 4 inside double quotes
+        a: "message*n",                  ///// Write the option 1 inside double quotes
+        b: "message^n mod phi",                  ///// Write the option 2 inside double quotes
+        c: "message^e mod n",                  ///// Write the option 3 inside double quotes
+        d: "e^n mod phi"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "b"                ///// Write the correct option inside double quotes
+      correctAnswer: "c"                ///// Write the correct option inside double quotes
     },
 
     {
-      question: "For p = 11 and q = 19 and choose e=17. Apply RSA algorithm where message=5 and find the cipher text?",  ///// Write the question inside double quotes
+      question: "What is the formula for decryption of message?",  ///// Write the question inside double quotes
       answers: {
-        a: "92",                  ///// Write the option 1 inside double quotes
-        b: "80",                  ///// Write the option 2 inside double quotes
-        c: "67",                  ///// Write the option 3 inside double quotes
-        d: "39"                   ///// Write the option 4 inside double quotes
+        a: "message*d",                  ///// Write the option 1 inside double quotes
+        b: "message^d mod phi",                  ///// Write the option 2 inside double quotes
+        c: "message^e mod n",                  ///// Write the option 3 inside double quotes
+        d: "d^n mod phi"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "b"                ///// Write the correct option inside double quotes
-    },                                  ///// To add more questions, copy the section below 
+    },                                
+    
+    
+    {
+      question: "What is public key?",
+      answers: {
+        a: "combination of (d,n)",
+        b: "combination of (e,n)",
+        c: "e",
+        d: "phi"
+      },
+      correctAnswer: "b"
+    },
+
+    
+    {
+      question: "What is private key?",
+      answers: {
+        a: "combination of (d,n)",
+        b: "combination of (e,n)",
+        c: "e",
+        d: "phi"
+      },
+      correctAnswer: "a"
+    },
+
+    
+    {
+      question: "Where is private key?",
+      answers: {
+        a: "sender",
+        b: "reciever",
+        c: "communication channel",
+        d: "both"
+      },
+      correctAnswer: "b"
+    },
+
+    
+    
+    
+    ///// To add more questions, copy the section below 
     									                  ///// this line
 
 
