@@ -90,26 +90,59 @@
 
   const myQuestions = [
     {
-      question: "This is question 1?",  ///// Write the question inside double quotes
+      question: "What is example of symmmetric encryption?",  ///// Write the question inside double quotes
       answers: {
-        a: "Option 1",                  ///// Write the option 1 inside double quotes
-        b: "Option 2",                  ///// Write the option 2 inside double quotes
-        c: "Option 3",                  ///// Write the option 3 inside double quotes
-        d: "Option 4"                   ///// Write the option 4 inside double quotes
+        a: "RSA",                  ///// Write the option 1 inside double quotes
+        b: "Blowfish",                  ///// Write the option 2 inside double quotes
+        c: "DSA",                  ///// Write the option 3 inside double quotes
+        d: "ECC"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "a"                ///// Write the correct option inside double quotes
+      correctAnswer: "b"                ///// Write the correct option inside double quotes
     },
 
     {
-     question: "This is question 2?",  ///// Write the question inside double quotes
+     question: "What is disadvantage of symmetric encryption?",  ///// Write the question inside double quotes
       answers: {
-        a: "Option 1",                  ///// Write the option 1 inside double quotes
-        b: "Option 2",                  ///// Write the option 2 inside double quotes
-        c: "Option 3",                  ///// Write the option 3 inside double quotes
-        d: "Option 4"                   ///// Write the option 4 inside double quotes
+        a: "complex",                  ///// Write the option 1 inside double quotes
+        b: "secured secret key transmission",                  ///// Write the option 2 inside double quotes
+        c: "not much used",                  ///// Write the option 3 inside double quotes
+        d: "less secure encryption"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "b"                ///// Write the correct option inside double quotes
-    },                                  ///// To add more questions, copy the section below 
+    },                                 
+    
+    {
+      question: "What part of encryption remains secret?",
+      answers: {
+        a: "public key",
+        b: "private key"
+      },
+      correctAnswer: "b"
+    },
+    
+    {
+      question: "Why we need encryption?",
+      answers: {
+        a: "make fast transmission",
+        b: "make secured transmission",
+        c: "not needed",
+        d: "easy access"
+      },
+      correctAnswer: "b"
+    },
+    
+    {
+      question: "Which is a prime number?",
+      answers: {
+        a: "35",
+        b: "53",
+        c: "9",
+        d: "39",
+        e: "51"
+      },
+      correctAnswer: "b"
+    },
+    ///// To add more questions, copy the section below 
     									                  ///// this line
 
 
@@ -135,7 +168,6 @@
     Copy above section
 
     */
-
 
 
 
