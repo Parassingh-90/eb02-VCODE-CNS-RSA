@@ -1,5 +1,5 @@
-## <b> Pre-test
-#### Please attempt the following questions
+## Pre-test<br>
+#### Please attempt the following questions<br>
 
 Q 1. What is example of symmmetric encryption?<br>
 a. RSA<br>
