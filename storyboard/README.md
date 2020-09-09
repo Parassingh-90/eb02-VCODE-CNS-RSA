@@ -45,17 +45,17 @@ The side panel continously shows the appropriate code running for the ongoing pr
 
 ##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
 
-Q. Dexter wants to set up his own public and private keys. He chooses p = 23 and q = 19 with e = 283. Find d?<br>
+Q. John wants to set up his own public and private keys. He chooses p = 13 and q = 19 with e = 23. Find d?<br>
 A.11<br>
-B.<b>7</b><br>
+B.<b>47</b><br>
 C.37<br>
 D.19<br>
 
-Q. For p = 11 and q = 19 and choose e=17. Apply RSA algorithm where message=5 and find the cipher text?<br>
-A.92<br>
-B.<b>80</b><br>
-C.67<br>
-D.39<br>
+Q. For p = 17 and q = 11 and choose e=7. Apply RSA algorithm where message=88 and find the cipher text?<br>
+A.80<br>
+B.<b>11</b><br>
+C.56<br>
+D.23<br>
 
 
 ##### 2.5 Allow pitfalls:
