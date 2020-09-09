@@ -32,7 +32,9 @@ Sr. No |  Learning Objective | Cognitive Level| Action Verb
 
 <a name="IS"></a>
 #### 3. Instructional Strategy
-###### Name of Instructional Strategy  :    <u> Expository
+###### Name of Instructional Strategy  :    <u> Expository<br>
+<div align="justify"> Instructional Strategy is Expository because student in this lab follow the predefined algorithm or procedure to perform the experiment.
+    
 ###### Assessment Method: Formative 
 
 <u> <b>Description: </b> of how you are going to implement the above Instructional Strategy in your Simulator: </u>
