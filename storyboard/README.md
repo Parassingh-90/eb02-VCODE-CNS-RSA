@@ -19,8 +19,8 @@ In Java we use Big Integers for calculating the above mentioned values and some 
 
 #### 2.1 Set the Visual Stage Description:
 <div align="justify">
-We divide our whole simulator into two parts.The top part comprises the instructions for the simulator and the bottom part is for simulator actions which is further subdivided into simulator representation part and code display part.The home screen shows 2 text boxes for entering values into P and Q.On submitting the form vanishes and is replaced by the form for inputting value of e. Then the details about P, Q, Phi, n and Public-Private key pairs are diplayed.
-The message to be sent for encryption is to eneterd now in the text box displayed.On submitting a messagew box with encrypted message and send button is displayed.On clicking send the message is sent to the reciever and displayed on recieving side with a Decrypt button.The decrypt button will decrypt the message and retrieve the plain text.
+We divide our whole simulator into two parts.The top part comprises the instructions for the simulator and the bottom part is for simulator actions which is further subdivided into simulator representation part and code display part.The home screen shows 2 text boxes for entering values into P and Q.On submitting the form vanishes and is replaced by the form for inputting value of e. Then the details about P, Q, Phi, n and Public-Private key pairs are displayed.
+The message to be sent for encryption is to eneterd now in the text box displayed.On submitting a message box with encrypted message and send button is displayed.On clicking send the message is sent to the reciever and displayed on recieving side with a Decrypt button.The decrypt button will decrypt the message and retrieve the plain text.
 The side panel continously shows the appropriate code running for the ongoing process.</div>
 
 #### 2.2 Set User Objectives & Goals:
