@@ -6,11 +6,11 @@
 
 <h5> About the Lab (Objective) : </h5>
 
-The objective of this lab is that student must able to know Asymmetric Cryptography process to secure message using RSA Algorithm
+This Lab is all about the Cryptography and Network Security Lab
 
 <h5> About the Experiment : </h5>
 
-<div align="justify">RSA (Rivest–Shamir–Adleman) is an algorithm used by modern computers to encrypt and decrypt messages. It is an asymmetric cryptographic algorithm. Asymmetric means that there are two different keys. This is also called public key cryptography, because one of the keys can be given to anyone. The other key must be kept private. The algorithm is based on the fact that finding the factors of a large composite number is difficult-when the factors are prime numbers, the problem is called prime factorization. It is also a key pair (public and private key) generator.</div>
+<div align="justify">The most common public key algorithm is RSA which is named after Rivest,Shamir and Adleman.Public Key Algorithm also known as Asymmetric Key Cryptography.In asymmetric key cryptography two different keys are used one is public key and other is private key.Public key is announced to user and Private key is kept secret by owner.Today modern system use RSA algorithm to secure the message.RSA Algorithm bascially work on factoring large interger number that are product of two(2) large prime numbers.</div>
 
 <h5> Target Audience : </h5>
 
