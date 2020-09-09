@@ -15,7 +15,6 @@
 <a name="LO"></a>
 #### 1. Focus Area : Reinforce theoretical concepts
 <div align="justify">Focus Area is Reinforce theoretical concept because students understand the working concept of RSA algorithm through step by step procedure.</div>
-<br>
 #### 2. Learning Objectives and Cognitive Level
 Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:-:
