@@ -55,7 +55,7 @@ Read the theory and comprehend the concepts related to the experiment. [LO1, LO2
 Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
 :--|:--|:--|:-:
 1.|User will be able to remember the concept of prime number|identify the prime number|<div align="justify">1.Which one of the following is not a prime number?<br></div>A.31<br>B.61<br>C.71<br><b>D.91</b><br>
-2.|User will be able to understand the concept of Key Generation <br> using RSA algorithm|Provide 2 large prime number P and Q |<div align="justify">1.RSA stands for___<br></div>A.Rock Shane and Amozen<br>B.Rivest Shamir and Adleman<br>C.Rivest Shamir and Amozen<br>DRock Shamir and Adleman</b><br><b>(B)</b>
+2.|User will be able to understand the concept of Key Generation <br> using RSA algorithm|Provide 2 large prime number P and Q |<div align="justify">1.RSA stands for___<br></div>A.Rock Shane and Amozen<br><b>B.Rivest Shamir and Adleman</b><br>C.Rivest Shamir and Amozen<br>DRock Shamir and Adleman</b><br><b>(B)</b>
 3.|User will be able to apply the concept of RSA Algorithm and | Try to encrypt and decrypt message to secure it using RSA algorithm|<div align="justify">1.For p = 11 and q = 19 and choose e=17. Apply RSA algorithm where message=5 and find the cipher text. <br></div> <div align="centre"><b>A. C=80 </b><br> B. C=92 <br> C. C=56 <br> <b> D. C=23 </b> <br></div>
 
 <div align="right">
