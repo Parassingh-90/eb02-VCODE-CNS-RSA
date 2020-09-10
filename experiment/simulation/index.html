@@ -759,7 +759,7 @@ decmsg=pow(encmsg,d)%N;
     function encrypt() {        
         var m=document.getElementById('message').value;
         if (isNaN(m) || m>200 || m<0 || m=='') {
-            document.getElementById('merror').innerHTML='Please enter a valid message!';        
+            document.getElementById('merror').innerHTML='Please enter a valid message Only Number is allowed!';        
         }
         else{     
             var scroll=document.getElementById('code')
