@@ -743,8 +743,9 @@ decmsg=pow(encmsg,d)%N;
     function sub() {
         p = document.getElementById('p').value;
         q = document.getElementById('q').value;
-        if (p<11 || p>100 || q<11 || q>100 || p=='' || q=='' || p==q) {
-            document.getElementById('error').innerHTML='Please enter different valid Prime numbers in range [11-100]';
+        var reg = new RegExp('^\\d+$');
+        if (p<11 || p>100 || q<11 || q>100 || p=='' || q=='' || p==q || !(reg.test(p)) || !(reg.test(q))) {
+            document.getElementById('error').innerHTML='Please enter 2 different valid Prime numbers in range [11-100]<br>eg.53,57';
         }
         else{
             document.getElementById('error').innerHTML='';        
@@ -758,8 +759,8 @@ decmsg=pow(encmsg,d)%N;
     }
     function encrypt() {        
         var m=document.getElementById('message').value;
-        if (isNaN(m) || m>200 || m<0 || m=='') {
-            document.getElementById('merror').innerHTML='Please enter a valid message Only Number is allowed!';        
+        if (isNaN(m) || m>200 || m<0 || m=='' || m==' ') {
+            document.getElementById('merror').innerHTML='Please enter a valid message Only Number is allowed!<br>eg. 125';        
         }
         else{     
             var scroll=document.getElementById('code')
