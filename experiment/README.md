@@ -78,7 +78,5 @@ c. communication channel<br>
 d. both<br>
 
 ### References<br>
-Cryptography and Network Security By Atul Khate<br>
-https://www.geeksforgeeks.org/rsa-algorithm-cryptography/<br>
-https://www.tutorialspoint.com/cryptography_with_python/cryptography_with_python_understanding_rsa_algorithm.htm<br>
-
+1.Cryptography and Network Security, Atul Khate,2nd edition,TMH,2006 <br>
+2.Cryptography and Network security,William Stallings,4th edition,Pearson Education,2010
