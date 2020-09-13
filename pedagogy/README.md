@@ -20,7 +20,7 @@
 #### 2. Learning Objectives and Cognitive Level
 Sr. No |  Learning Objective | Cognitive Level| Action Verb
 :--|:--|:--|:-:
-1.| User will be able to: <br>remember the concept of prime number|Remember|Recall
+1.| User will be able to: <br>recall the concept of prime number|Remember|Recall
 2.| User will be able to: <br>explain the concept of Key Generation <br> using RSA algorithm.|Understand|Explain
 3.| User will be able to: <br>apply the concept of RSA Algorithm <br> to encrypt and decrypt message.|Apply|Apply
 
