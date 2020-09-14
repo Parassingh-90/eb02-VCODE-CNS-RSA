@@ -5,8 +5,8 @@ Experiment 3: Write a Java Program to implement RSA algorithm.
 ### 1. Story Outline:
 <div align="justify">
 The experiment is based on implementation of RSA algorithm for encryption and decryption of message using asymmetric encryption.
-RSA is the initial letters of the surnames of Ron Rivest, Adi Shamir, and Leonard Adleman, who publicly described the algorithm in 1977.The experiment involves generating the public key and private key using two large prime numbers entererd by user and then using the calculated key pairs to encrypt the message and decrypt the message.
-The user choses two large prime numbers for P and Q.This evaluates some value of e which then plays a vital role in calculation of Public key and Private key.This is then followed by user entering the message to be encrypted,sending the message to the reciever and then again decrypting it to plain message.Simulator will provide the user a better understanding of the overall procedure involved in RSA algorithm implementation.</div>
+RSA is the initial letters of the surnames of Ron Rivest, Adi Shamir, and Leonard Adleman.The experiment involves generating the public key and private key using two large prime numbers entererd by user and then using the calculated key pairs to encrypt the message and decrypt the message.
+The user choses two large prime numbers for P and Q.This evaluates some value of e which plays a vital role in calculation of Public key and Private key. After that user enter the message to be encrypted,sending the message to the reciever and then again decrypting it to plaintext message.Simulator will provide the user a better understanding of the overall procedure involved in RSA algorithm implementation.</div>
 
 ### 2. Story:
 <div align="justify">
