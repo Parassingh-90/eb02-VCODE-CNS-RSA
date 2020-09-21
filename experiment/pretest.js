@@ -90,23 +90,23 @@
 
   const myQuestions = [
     {
-      question: "What is example of symmmetric encryption?",  ///// Write the question inside double quotes
+      question: "Which is an example of asymmmetric encryption?",  ///// Write the question inside double quotes
       answers: {
         a: "RSA",                  ///// Write the option 1 inside double quotes
         b: "Blowfish",                  ///// Write the option 2 inside double quotes
-        c: "DSA",                  ///// Write the option 3 inside double quotes
-        d: "ECC"                   ///// Write the option 4 inside double quotes
+        c: "AES",                  ///// Write the option 3 inside double quotes
+        d: "DES"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "b"                ///// Write the correct option inside double quotes
+      correctAnswer: "a"                ///// Write the correct option inside double quotes
     },
 
     {
      question: "What is disadvantage of symmetric encryption?",  ///// Write the question inside double quotes
       answers: {
-        a: "complex",                  ///// Write the option 1 inside double quotes
-        b: "secured secret key transmission",                  ///// Write the option 2 inside double quotes
-        c: "not much used",                  ///// Write the option 3 inside double quotes
-        d: "less secure encryption"                   ///// Write the option 4 inside double quotes
+        a: "Complex",                  ///// Write the option 1 inside double quotes
+        b: "Secured Secret Key Transmission",                  ///// Write the option 2 inside double quotes
+        c: "Not much used",                  ///// Write the option 3 inside double quotes
+        d: "Less Secure Encryption"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "b"                ///// Write the correct option inside double quotes
     },                                 
@@ -114,8 +114,8 @@
     {
       question: "What part of encryption remains secret?",
       answers: {
-        a: "public key",
-        b: "private key"
+        a: "Public Key",
+        b: "Private Key"
       },
       correctAnswer: "b"
     },
@@ -123,10 +123,10 @@
     {
       question: "Why we need encryption?",
       answers: {
-        a: "make fast transmission",
-        b: "make secured transmission",
-        c: "not needed",
-        d: "easy access"
+        a: "Make Fast Transmission",
+        b: "Make Secured Transmission",
+        c: "Not needed",
+        d: "Easy Access"
       },
       correctAnswer: "b"
     },
