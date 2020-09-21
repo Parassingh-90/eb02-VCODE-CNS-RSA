@@ -17,11 +17,11 @@ Student must be able to understand the concept of cryptography.<br>
 9.The sent message is displayed on reciever's end.<br>
 
 ### Pre Test<br>
-Q 1. What is example of symmmetric encryption?<br>
-a. RSA<br>
-<b>b. Blowfish<br></b>
-c. DSA<br>
-d. ECC<br>
+Q 1. What is example of asymmetric encryption?<br>
+<b>a. RSA<br></b>
+b. Blowfish<br>
+c. AES<br>
+d. DES<br>
 
 Q 2. What is disadvantage of symmetric encryption?<br>
 a. complex<br>
