@@ -73,7 +73,7 @@ d. phi<br>
 
 Q 5. Private key Kept Secret by__<br>
 a. Sender<br>
-<b>b.Reciever<br></b>
+<b>b. Reciever<br></b>
 c. Communication Channel<br>
 d. Both<br>
 
