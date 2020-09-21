@@ -17,27 +17,27 @@ Student must be able to understand the concept of cryptography.<br>
 9.The sent message is displayed on reciever's end.<br>
 
 ### Pre Test<br>
-Q 1. What is example of asymmetric encryption?<br>
+Q 1. Which is an example of asymmetric encryption?<br>
 <b>a. RSA<br></b>
 b. Blowfish<br>
 c. AES<br>
 d. DES<br>
 
 Q 2. What is disadvantage of symmetric encryption?<br>
-a. complex<br>
-<b>b. secured secret key transmission<br></b>
-c. not much used<br>
-d. less secure encryption<br>
+a. Complex<br>
+<b>b. Secured Secret Key Transmission<br></b>
+c. Not much used<br>
+d. Less Secure Encryption<br>
 
 Q 3. What part of encryption remains secret?<br>
-a. public key<br>
-<b>b. private key<br></b>
+a. Public Key<br>
+<b>b. Private Key<br></b>
 
 Q 4. Why we need encryption?<br>
-a. make fast transmission<br>
-<b>b. make secured transmission<br></b>
-c. not needed<br>
-d. easy access<br>
+a. Make Fast Transmission<br>
+<b>b. Make Secured Transmission<br></b>
+c. Not needed<br>
+d. Easy Access<br>
 
 Q 5. Which is a prime number?<br>
 a. 35<br>
