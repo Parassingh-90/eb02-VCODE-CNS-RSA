@@ -137,7 +137,7 @@
 
     
     {
-      question: "Where is private key?",
+      question: "Private key Kept Secret by__?",
       answers: {
         a: "sender",
         b: "reciever",
