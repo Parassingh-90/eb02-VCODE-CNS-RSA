@@ -4,6 +4,7 @@
     <title>
         RSA-Cryptography
     </title>
+
 </head>
 <style>
     @media screen and (max-width: 1100px) {
@@ -12,9 +13,36 @@
                 height: 200px;
            }
     }
+    @media screen and (max-width: 1115px) {
+           #code,.simulator{
+	width: 98% !important;
+	position: relative !important;
+	float: left !important;
+	font-size: 11px;	
+           }
+           #instruction{
+	height: auto;
+	font-size: 11px;	
+           }
+           #myBtn{
+	display: none;
+           }
+           #reset{
+	width: 70px !important;
+	font-size: 12px;
+	position: absolute;
+	right: 1px;
+	bottom: -50px;
+           }
+    }
+
     #list{
         display: block;
     }
+    #quizdiv{
+	position: relative;
+	float: left;
+     }
     .option {
         background-color: rgba(225, 225, 225, 0.8);
         width: 300px;
@@ -205,7 +233,7 @@
             <div id="myBtn"><b style="color: red; text-shadow: none; "><span id="click">Click to see
                         formulae</span></b>
             </div><br>
-            <center><input class="btn-next" type="submit" value="Reset" onclick="reset()"
+            <center><input class="btn-next" type="submit" id="reset" value="Reset" onclick="reset()"
                 style="background-color: red; width: 110px;padding: 3%;text-align: center;" /></center>
         </div>
     </div>    
@@ -234,47 +262,7 @@
         </div>
 
     </div>
-    <div id="code">      
-        <pre id="pqcode" style="background-color: lightseagreen;color:white">
-Scanner sc=new Scanner(System.in);            
-p=sc.nextInt();
-q=sc.nextInt();
-</pre>       
-<pre id="phicode">            
-n=P*Q
-phi=(P-1)*(Q-1)</pre>
-<pre id="ecode">
-for(e=2;e&lt;phi;e++)
-{
-    if(gcd(e,phi)==1 && e!=p && e!=q)
-    { 
-        System.out.println(e);
-        break;
-    }
-}
-</pre>
-<pre id="prcode">
-function prkey(){
-    var i;
-    for(i=1;i&lt;=9;i++)
-    {
-        int x=1+(i*phi);
-        if(x%e==0)
-        {
-            d=x/e;                       
-            break;
-        }
-    }        
-}
-</pre>
-<pre id="encode">
-encmsg=Math.pow(Integer.parseInt(msg),evalue)%n;
-</pre>
-<pre id="decode">
-decmsg=pow(encmsg,d)%N; 
-</pre>
-        </pre>
-    </div>
+    
     <div class="simulator">
         <div id="gif">
 
@@ -328,7 +316,48 @@ decmsg=pow(encmsg,d)%N;
         </div>
         <center><span id="quizalert" style="color:red;position: relative;left: 10%;"></span><br><br></center>        
     </div>
-    <div name="quizdiv" id="quizdiv">
+      <div id="code">      
+        <pre id="pqcode" style="background-color: lightseagreen;color:white">
+Scanner sc=new Scanner(System.in);            
+p=sc.nextInt();
+q=sc.nextInt();
+</pre>       
+<pre id="phicode">            
+n=P*Q
+phi=(P-1)*(Q-1)</pre>
+<pre id="ecode">
+for(e=2;e&lt;phi;e++)
+{
+    if(gcd(e,phi)==1 && e!=p && e!=q)
+    { 
+        System.out.println(e);
+        break;
+    }
+}
+</pre>
+<pre id="prcode">
+function prkey(){
+    var i;
+    for(i=1;i&lt;=9;i++)
+    {
+        int x=1+(i*phi);
+        if(x%e==0)
+        {
+            d=x/e;                       
+            break;
+        }
+    }        
+}
+</pre>
+<pre id="encode">
+encmsg=Math.pow(Integer.parseInt(msg),evalue)%n;
+</pre>
+<pre id="decode">
+decmsg=pow(encmsg,d)%N; 
+</pre>
+        </pre>
+    </div>
+    <div name="quizdiv" id="quizdiv" style="width: 100%;">
         <hr>
         <h1 style="text-align:center; color:rgb(93, 93, 202);">Attempt Task</h1>
     
@@ -400,6 +429,7 @@ decmsg=pow(encmsg,d)%N;
         height: 70%;
         width: 70%;        
         position: relative;
+        float: left;
         overflow: auto;
         box-shadow: 5px 5px 18px rgb(93, 93, 202) inset;
     }
@@ -407,8 +437,9 @@ decmsg=pow(encmsg,d)%N;
         height: 70%;
         width: 25.75%;
         padding: 1% 1% 1% 1%;
-        position: absolute;
         right: 0%;
+        position: absolute;
+        float: right;
         border: 1px solid  rgb(93, 93, 202);
         padding: 0% 1% 1% 1%;;
         overflow: auto;
