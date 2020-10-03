@@ -70,7 +70,7 @@ function recieve() {
     document.getElementById('encode').style.color='black';
     document.getElementById('decmsg').innerHTML = decmsg;
     document.getElementById('sending').style.display = 'none';
-    document.getElementById('gif').innerHTML = '<img src="images/decryption.gif" width="650px" height="250px" style="background: transparent;">';
+    document.getElementById('gif').innerHTML = '<img src="images/decryption.gif" width="620px" height="220px" style="background: transparent;">';
     document.getElementById('decrypted').style.display = 'block';
     document.getElementById('quizalert').innerHTML = "Attempt the task given below!";
     document.getElementById("quizdiv").style.display = "block";
