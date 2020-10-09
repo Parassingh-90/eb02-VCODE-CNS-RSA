@@ -1,2 +1,2 @@
-https://www.geeksforgeeks.org/rsa-algorithm-cryptography/<br>
-https://www.tutorialspoint.com/cryptography_with_python/cryptography_with_python_understanding_rsa_algorithm.htm<br>
+1. Cryptography and Network Security, Atul Khate,2nd edition,TMH,2006
+2. Cryptography and Network security,William Stallings,4th edition,Pearson Education,2010
