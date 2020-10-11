@@ -24,8 +24,8 @@ b. Combination of (e,n)<br>
 c. e<br>
 d. phi<br>
 
-Q 5. Private key Kept Secret by__?<br>
-a. Sender<br>
-<b>b. Reciever<br></b>
-c. Communication Channel<br>
-d. Both<br>
+Q 5. Let two prime are p=3 and q=5.Public key is e=5 and Private keys d=17. Given Message is "HI" find the ciphertext<br>
+a. 16<br>
+<b>b. 17<br></b>
+c. 18<br>
+d. 19<br>
