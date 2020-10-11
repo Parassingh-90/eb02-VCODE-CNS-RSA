@@ -32,6 +32,8 @@ d. Less Secure Encryption<br>
 Q 3. What part of encryption remains secret?<br>
 a. Public Key<br>
 <b>b. Private Key<br></b>
+c. Both<br>
+d. None<br>
 
 Q 4. Why we need encryption?<br>
 a. Make Fast Transmission<br>
@@ -39,12 +41,12 @@ a. Make Fast Transmission<br>
 c. Not needed<br>
 d. Easy Access<br>
 
-Q 5. Which is a prime number?<br>
+Q 5. Which one is a prime number?<br>
 a. 35<br>
 <b>b. 53<br></b>
-c. 9<br>
-d. 39<br>
-e. 51<br>
+c. 39<br>
+d. 51<br>
+
 
 ### Post Test<br>
 Q 1. What is the formula for encryption of message?<br>
@@ -55,7 +57,7 @@ d. e^n mod phi<br><br>
 
 Q 2. What is the formula for decryption of message?<br>
 a. Message*d<br>
-<b>b. Message^d mod phi<br></b>
+<b>b. Message^d mod n<br></b>
 c. Message^e mod n<br>
 d. d^n mod phi<br>
 
@@ -71,12 +73,12 @@ b. Combination of (e,n)<br>
 c. e<br>
 d. phi<br>
 
-Q 5. Private key Kept Secret by__<br>
-a. Sender<br>
-<b>b. Reciever<br></b>
-c. Communication Channel<br>
-d. Both<br>
+Q 5. Let two prime are p=3 and q=5.Public key is e=5 and Private keys d=17. Given Message is "HI" find the ciphertext<br>
+a. 16<br>
+<b>b. 17<br></b>
+c. 18<br>
+d. 19<br>
 
 ### References<br>
-1. Cryptography and Network Security, Atul Khate,2nd edition,TMH,2006 <br>
-2. Cryptography and Network security,William Stallings,4th edition,Pearson Education,2010
+1. Cryptography and Network Security, Atul Khate, 2nd edition, TMH, 2006 <br>
+2. Cryptography and Network security, William Stallings, 4th edition, Pearson Education, 2010
