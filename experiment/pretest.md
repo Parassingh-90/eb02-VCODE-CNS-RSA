@@ -3,7 +3,7 @@
 
 Q 1. Which is an example of asymmmetric encryption?<br>
 <b>a. RSA</b><br>
-b. Blowfish
+b. Blowfish<br>
 c. AES<br>
 d. DES<br>
 
@@ -16,6 +16,8 @@ d. Less Secure Encryption<br>
 Q 3. What part of encryption remains secret?<br>
 a. Public Key<br>
 <b>b. Private Key<br></b>
+c. Both
+d. None
 
 Q 4. Why we need encryption?<br>
 a. Make Fast Transmission<br>
@@ -23,9 +25,9 @@ a. Make Fast Transmission<br>
 c. Not needed<br>
 d. Easy Access<br>
 
-Q 5. Which is a prime number?<br>
+Q 5. Which one is a prime number?<br>
 a. 35<br>
 <b>b. 53<br></b>
-c. 9<br>
-d. 39<br>
-e. 51<br>
+c. 39<br>
+d. 51<br>
+
