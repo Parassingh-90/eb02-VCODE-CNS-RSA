@@ -16,8 +16,8 @@ d. Less Secure Encryption<br>
 Q 3. What part of encryption remains secret?<br>
 a. Public Key<br>
 <b>b. Private Key<br></b>
-c. Both
-d. None
+c. Both<br>
+d. None<br>
 
 Q 4. Why we need encryption?<br>
 a. Make Fast Transmission<br>
