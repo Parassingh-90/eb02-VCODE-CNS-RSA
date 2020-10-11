@@ -8,7 +8,7 @@ d. e^n mod phi<br><br>
 
 Q 2. What is the formula for decryption of message?<br>
 a. Message*d<br>
-<b>b. Message^d mod phi<br></b>
+<b>b. Message^d mod n<br></b>
 c. Message^e mod n<br>
 d. d^n mod phi<br>
 
