@@ -104,7 +104,7 @@
       question: "What is the formula for decryption of message?",  ///// Write the question inside double quotes
       answers: {
         a: "message*d",                  ///// Write the option 1 inside double quotes
-        b: "message^d mod phi",                  ///// Write the option 2 inside double quotes
+        b: "message^d mod n",                  ///// Write the option 2 inside double quotes
         c: "message^e mod n",                  ///// Write the option 3 inside double quotes
         d: "d^n mod phi"                   ///// Write the option 4 inside double quotes
       },
@@ -137,12 +137,12 @@
 
     
     {
-      question: "Private key Kept Secret by__?",
+      question: "Let two prime are p=3 and q=5.Public key is e=5 and Private keys d=17. Given Message is "HI" find the ciphertext",
       answers: {
-        a: "sender",
-        b: "reciever",
-        c: "communication channel",
-        d: "both"
+        a: "16",
+        b: "17",
+        c: "18",
+        d: "19"
       },
       correctAnswer: "b"
     },
