@@ -115,7 +115,9 @@
       question: "What part of encryption remains secret?",
       answers: {
         a: "Public Key",
-        b: "Private Key"
+        b: "Private Key",
+        c: "Both",
+        d: "None"
       },
       correctAnswer: "b"
     },
@@ -132,14 +134,13 @@
     },
     
     {
-      question: "Which is a prime number?",
+      question: "Which one is a prime number?",
       answers: {
         a: "35",
         b: "53",
-        c: "9",
-        d: "39",
-        e: "51"
-      },
+        c: "39",
+        d: "51",
+       },
       correctAnswer: "b"
     },
     ///// To add more questions, copy the section below 
